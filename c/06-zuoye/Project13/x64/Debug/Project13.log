@@ -1,0 +1,10 @@
+﻿  源.c
+C:\Users\13378343877\Desktop\bite-wangke\06-zuoye\Project13\源.c(91,18): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\13378343877\Desktop\bite-wangke\06-zuoye\Project13\源.c(108,19): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\13378343877\Desktop\bite-wangke\06-zuoye\Project13\源.c(109,19): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\13378343877\Desktop\bite-wangke\06-zuoye\Project13\源.c(225,66): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\13378343877\Desktop\bite-wangke\06-zuoye\Project13\源.c(239,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+C:\Users\13378343877\Desktop\bite-wangke\06-zuoye\Project13\源.c(239,9): message : 请考虑在格式字符串中使用“%zd”
+C:\Users\13378343877\Desktop\bite-wangke\06-zuoye\Project13\源.c(240,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+C:\Users\13378343877\Desktop\bite-wangke\06-zuoye\Project13\源.c(240,9): message : 请考虑在格式字符串中使用“%zd”
+  Project13.vcxproj -> C:\Users\13378343877\Desktop\bite-wangke\06-zuoye\Project13\x64\Debug\Project13.exe

@@ -1,0 +1,11 @@
+﻿  源.c
+C:\Users\13378343877\Desktop\bite-wangke\shujujiegou\Project5\源.c(15,37): warning C4013: “malloc”未定义；假设外部返回 int
+C:\Users\13378343877\Desktop\bite-wangke\shujujiegou\Project5\源.c(18,21): warning C4133: “=”: 从“listnode *”到“ListNide *”的类型不兼容
+C:\Users\13378343877\Desktop\bite-wangke\shujujiegou\Project5\源.c(32,22): warning C4133: “=”: 从“listnode *”到“ListNide *”的类型不兼容
+C:\Users\13378343877\Desktop\bite-wangke\shujujiegou\Project5\源.c(33,21): warning C4133: “=”: 从“listnode *”到“ListNide *”的类型不兼容
+C:\Users\13378343877\Desktop\bite-wangke\shujujiegou\Project5\源.c(26,1): warning C4133: “初始化”: 从“ListNide *”到“listnode *”的类型不兼容
+C:\Users\13378343877\Desktop\bite-wangke\shujujiegou\Project5\源.c(82,19): warning C4133: “=”: 从“listnode *”到“ListNide *”的类型不兼容
+C:\Users\13378343877\Desktop\bite-wangke\shujujiegou\Project5\源.c(83,6): warning C4013: “free”未定义；假设外部返回 int
+C:\Users\13378343877\Desktop\bite-wangke\shujujiegou\Project5\源.c(79,1): warning C4133: “初始化”: 从“ListNide *”到“listnode *”的类型不兼容
+C:\Users\13378343877\Desktop\bite-wangke\shujujiegou\Project5\源.c(106,23): warning C4133: “函数”: 从“ListNide *”到“listnode *”的类型不兼容
+  Project5.vcxproj -> C:\Users\13378343877\Desktop\bite-wangke\shujujiegou\Project5\Debug\Project5.exe

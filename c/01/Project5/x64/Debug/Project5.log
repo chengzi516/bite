@@ -1,0 +1,3 @@
+﻿  源.c
+C:\Users\13378343877\Desktop\bite-wangke\01\Project5\源.c(14,1): warning C4305: “初始化”: 从“double”到“const float”截断
+  Project5.vcxproj -> C:\Users\13378343877\Desktop\bite-wangke\01\Project5\x64\Debug\Project5.exe

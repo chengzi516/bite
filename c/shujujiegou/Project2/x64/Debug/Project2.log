@@ -1,0 +1,4 @@
+﻿  源.c
+C:\Users\13378343877\Desktop\bite-wangke\shujujiegou\Project2\源.c(125,12): warning C4098: “seqlistfind”:“void”函数返回值
+C:\Users\13378343877\Desktop\bite-wangke\shujujiegou\Project2\源.c(128,11): warning C4098: “seqlistfind”:“void”函数返回值
+  Project2.vcxproj -> C:\Users\13378343877\Desktop\bite-wangke\shujujiegou\Project2\x64\Debug\Project2.exe

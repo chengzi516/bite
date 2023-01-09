@@ -1,0 +1,6 @@
+﻿  源.c
+C:\Users\13378343877\Desktop\bite-wangke\06-zuoye\Project4\源.c(9,19): warning C4552: ”-“: 未使用表达式结果
+C:\Users\13378343877\Desktop\bite-wangke\06-zuoye\Project4\源.c(8,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\13378343877\Desktop\bite-wangke\06-zuoye\Project4\源.c(32,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\13378343877\Desktop\bite-wangke\06-zuoye\Project4\源.c(51): warning C4172: 返回局部变量或临时变量的地址: arr
+  Project4.vcxproj -> C:\Users\13378343877\Desktop\bite-wangke\06-zuoye\Project4\x64\Debug\Project4.exe

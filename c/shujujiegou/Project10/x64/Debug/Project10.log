@@ -1,0 +1,10 @@
+﻿  源.c
+C:\Users\13378343877\Desktop\bite-wangke\shujujiegou\Project10\源.c(20,21): warning C4013: “malloc”未定义；假设外部返回 int
+C:\Users\13378343877\Desktop\bite-wangke\shujujiegou\Project10\源.c(20,33): warning C4312: “类型强制转换”: 从“int”转换到更大的“tn *”
+C:\Users\13378343877\Desktop\bite-wangke\shujujiegou\Project10\源.c(24,33): warning C4312: “类型强制转换”: 从“int”转换到更大的“tn *”
+C:\Users\13378343877\Desktop\bite-wangke\shujujiegou\Project10\源.c(28,33): warning C4312: “类型强制转换”: 从“int”转换到更大的“tn *”
+C:\Users\13378343877\Desktop\bite-wangke\shujujiegou\Project10\源.c(32,33): warning C4312: “类型强制转换”: 从“int”转换到更大的“tn *”
+C:\Users\13378343877\Desktop\bite-wangke\shujujiegou\Project10\源.c(36,33): warning C4312: “类型强制转换”: 从“int”转换到更大的“tn *”
+C:\Users\13378343877\Desktop\bite-wangke\shujujiegou\Project10\源.c(40,33): warning C4312: “类型强制转换”: 从“int”转换到更大的“tn *”
+C:\Users\13378343877\Desktop\bite-wangke\shujujiegou\Project10\源.c(44,33): warning C4312: “类型强制转换”: 从“int”转换到更大的“tn *”
+  Project10.vcxproj -> C:\Users\13378343877\Desktop\bite-wangke\shujujiegou\Project10\x64\Debug\Project10.exe

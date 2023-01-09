@@ -1,0 +1,7 @@
+﻿  源.c
+C:\Users\13378343877\Desktop\bite-wangke\06-zuoye\Project8\源.c(6,16): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\13378343877\Desktop\bite-wangke\06-zuoye\Project8\源.c(39,24): warning C4013: “malloc”未定义；假设外部返回 int
+C:\Users\13378343877\Desktop\bite-wangke\06-zuoye\Project8\源.c(39,1): warning C4047: “初始化”:“int *”与“int”的间接级别不同
+C:\Users\13378343877\Desktop\bite-wangke\06-zuoye\Project8\源.c(55,21): warning C4047: “函数”:“int *”与“int”的间接级别不同
+C:\Users\13378343877\Desktop\bite-wangke\06-zuoye\Project8\源.c(55,19): warning C4024: “plusOne”: 形参和实参 3 的类型不同
+  Project8.vcxproj -> C:\Users\13378343877\Desktop\bite-wangke\06-zuoye\Project8\x64\Debug\Project8.exe
