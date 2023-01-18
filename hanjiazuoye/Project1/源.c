@@ -42,10 +42,15 @@
 
 int main()
 {
-    int n, a1 = 2;
+   /* int n, a1 = 2;
     while (~scanf("%d", &n)) {
         int an = a1 + (n - 1) * 3
         printf("%d\n", n * (a1 + an) / 2); 
     } 
+    return 0;*/
+
+    int a[5] = { 1,2,3,4,5 };
+    int* ptr = (int*)(&a + 1);
+    printf("%d,%d", *(a + 1), *(ptr - 1));
     return 0;
 }
