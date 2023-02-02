@@ -45,7 +45,7 @@ public class digui {
         }
     }
     public static void main(String[] args) {
-        hanoi(3,"Ëş1","Ëş2","Ëş3");
+        hanoi(3,"AÖù","BÖù","CÖù");
     }
 
 }
