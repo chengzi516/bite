@@ -47,8 +47,8 @@ public class Booklist {
         return books;
     }
 
-    public void setBooks(Book[] books) {
-        this.books = books;
+    public void setBooks(Book book,int pos) {
+        books[pos]=book;
     }
 
     public int getUsedsize() {
@@ -58,11 +58,14 @@ public class Booklist {
     public void setUsedsize(int usedsize) {
         this.usedsize = usedsize;
     }
-
-    public static void main(String[] args) {
-        Booklist booklist=new Booklist();
-        System.out.println(Arrays.toString(booklist.getBooks()));
+    public Book getPos(int i){
+       return books[i];
     }
+
+//    public static void main(String[] args) {
+//        Booklist booklist=new Booklist();
+//        System.out.println(Arrays.toString(booklist.getBooks()));
+//    }
 
 
 }

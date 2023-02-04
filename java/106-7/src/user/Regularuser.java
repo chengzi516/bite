@@ -1,5 +1,8 @@
 package user;
 
+import operation.*;
+
+
 import java.util.Scanner;
 
 /**
@@ -14,6 +17,12 @@ public class Regularuser extends User{
 
     public Regularuser(String name) {
         super(name);
+        this.op=new operation[]{
+                new exitsystem(),
+                new borrowbook(),
+                new returnbook(),
+                new findbook()
+        };
       //  this.Specialproperties = specialproperties;
     }
     public int menu(){

@@ -32,6 +32,7 @@ public class Main {
         User user=login();
         while(true) {
             int choice = user.menu();
+            user.dooperation(choice,booklist);
         }
     }
 }

@@ -1,5 +1,9 @@
 package user;
 
+
+import book.Booklist;
+import operation.operation;
+
 /**
  * Created with IntelliJ IDEA.
  * Description:
@@ -10,6 +14,10 @@ package user;
 public abstract class User {
      String name;
     public User(){
+    }
+    protected operation[] op;
+    public void dooperation(int choice, Booklist booklist){
+        op[choice].work(booklist);
     }
     public abstract int menu();
     public User(String name) {

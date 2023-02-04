@@ -1,5 +1,12 @@
 package user;
 
+import operation.operation;
+import operation.exitsystem;
+import operation.borrowbook;
+import operation.returnbook;
+import operation.addbook;
+import operation.deletebook;
+import operation.findbook;
 import java.util.Scanner;
 
 /**
@@ -10,9 +17,19 @@ import java.util.Scanner;
  * Time: 21:27
  */
 public class Adminuser extends User {
+
     public Adminuser(String name) {
         super(name);
+        this.op=new operation[]{
+                new exitsystem(),
+                new borrowbook(),
+                new returnbook(),
+                new findbook(),
+                new addbook(),
+                new deletebook()
+        };
     }
+
     public int menu(){
         System.out.println("»¶Ó­Äã£¡"+name);
         System.out.println("0.ÍË³öÏµÍ³");
