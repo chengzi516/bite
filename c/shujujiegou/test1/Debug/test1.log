@@ -1,0 +1,6 @@
+﻿  源.c
+C:\Users\13378343877\Desktop\wangke\bite\c\shujujiegou\test1\源.c(54,18): warning C4047: “函数”:“ls *”与“ls **”的间接级别不同
+C:\Users\13378343877\Desktop\wangke\bite\c\shujujiegou\test1\源.c(54,13): warning C4024: “listisfull”: 形参和实参 1 的类型不同
+C:\Users\13378343877\Desktop\wangke\bite\c\shujujiegou\test1\源.c(61,20): warning C4552: ”+“: 未使用表达式结果
+C:\Users\13378343877\Desktop\wangke\bite\c\shujujiegou\test1\源.c(66,20): warning C4552: ”-“: 未使用表达式结果
+  test1.vcxproj -> C:\Users\13378343877\Desktop\wangke\bite\c\shujujiegou\test1\Debug\test1.exe

@@ -1,5 +1,0 @@
-﻿  源.c
-C:\Users\13378343877\Desktop\wangke\bite\hanjiazuoye\Project2\源.c(140,9): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
-D:\vs\VC\Tools\MSVC\14.31.31103\include\vcruntime_string.h(47,6): warning C4028: 形参 2 与声明不同
-C:\Users\13378343877\Desktop\wangke\bite\hanjiazuoye\Project2\源.c(37): warning C4715: “Mystrcmp”: 不是所有的控件路径都返回值
-  Project2.vcxproj -> C:\Users\13378343877\Desktop\wangke\bite\hanjiazuoye\Project2\x64\Debug\Project2.exe
