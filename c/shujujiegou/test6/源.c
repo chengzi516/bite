@@ -111,10 +111,16 @@ void selectsort(int* a,int n) {
 	
 }
 //5.快速排序,会采用分治算法的思想。
+int getmid(int*a,int left,int right) {
+	int mid = (left + right) >> 1;
+
+}
 void quciksort(int* a, int left,int right) {
 	if (left >= right) {
 		return;
 	}
+	int index = getmid(a, left, right);
+	swap(&a[left], &a[index]);
 	int begin = left; int end = right;
 	int pivot = begin;
 	int key = a[begin];
