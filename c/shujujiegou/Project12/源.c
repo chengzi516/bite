@@ -17,7 +17,7 @@ void print(ln* phead) {
 	}
 	printf("NULL\n");
 }
-
+//尾插
 void listpushback(ln** phead, sltdatatype x) {
 	if (*phead == NULL) {
 		ln* new = (ln*)malloc(sizeof(ln));
@@ -46,13 +46,86 @@ void listpushback(ln** phead, sltdatatype x) {
 		tail->next = new;
 	}
 }
-
+//头插
+void listpushhead(ln** phead, sltdatatype x) {
+	ln* new = (ln*)malloc(sizeof(ln));
+	new->x = x;
+	if (*phead == NULL) {
+		*phead = new;
+	}
+	else {
+		new->next = (*phead);
+		*phead = new;
+	}
+}
+//尾删
+void listpopback(ln** phead) {
+	ln* tail = *phead;
+	if (*phead == NULL) {
+		printf("链表已经为空！\n");
+		return;
+	}
+	else if ((*phead)->next == NULL) {
+		free(*phead);
+		*phead = NULL;
+	}
+	else {
+		while (tail->next->next != NULL) {
+			tail = tail->next;
+		}
+		tail->next = NULL;
+		free(tail->next);
+	}
+}
+//头删
+void listpopfront(ln** phead) {
+	if (*phead == NULL) {
+		printf("链表已经为空!\n");
+		return;
+	}
+	else {
+		ln* p = (*phead)->next;
+		free(*phead);
+		*phead = p;
+	}
+}
+//查找
+ln* listfind(ln* phead,sltdatatype x) {
+	ln* cur = phead;
+	while (cur != NULL) {
+		if (cur->x == x) {
+			return cur;
+		}
+		cur = cur->next;
+	}
+}
+//插入在pos后
+void listinsert(ln* pos, sltdatatype x) {
+	ln* new = (ln*)malloc(sizeof(ln));
+	new->x = x;
+	new->next = pos->next;
+	pos->next = new;
+}
+//销毁
+void destroylist(ln** phead) { //要传二级指针，因为在print里plist并未被置为空。
+	
+	
+	while (*phead)
+	{
+		ln*p = (*phead);
+		*phead = (*phead)->next;
+		free(p);
+		
+	}
+}
 int main() {
 	ln* plist=NULL;
 	listpushback(&plist, 1);
 	listpushback(&plist, 2);
 	listpushback(&plist, 3);
 	listpushback(&plist, 4);
+	listpushhead(&plist, 5);
+	destroylist(&plist);
 	print(plist);
 
 }
