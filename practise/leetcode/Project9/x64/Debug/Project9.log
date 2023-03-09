@@ -1,0 +1,3 @@
+﻿  源.c
+C:\Users\13378343877\Desktop\wangke\bite\practise\leetcode\Project9\源.c(10,28): warning C4554: “>>”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+  Project9.vcxproj -> C:\Users\13378343877\Desktop\wangke\bite\practise\leetcode\Project9\x64\Debug\Project9.exe
