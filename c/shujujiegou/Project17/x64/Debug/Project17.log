@@ -1,0 +1,4 @@
+﻿  源.c
+C:\Users\13378343877\Desktop\wangke\bite\c\shujujiegou\Project17\源.c(152,3): warning C4033: “BinaryTreeFind”必须返回值
+C:\Users\13378343877\Desktop\wangke\bite\c\shujujiegou\Project17\源.c(162): warning C4715: “BinaryTreeFind”: 不是所有的控件路径都返回值
+  Project17.vcxproj -> C:\Users\13378343877\Desktop\wangke\bite\c\shujujiegou\Project17\x64\Debug\Project17.exe
