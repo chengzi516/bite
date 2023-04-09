@@ -1,0 +1,6 @@
+﻿  源.c
+C:\Users\13378343877\Desktop\wangke\bite\c\shujujiegou\sort2\源.c(15,31): warning C4554: “>>”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+C:\Users\13378343877\Desktop\wangke\bite\c\shujujiegou\sort2\源.c(61,3): warning C4033: “_quicksort”必须返回值
+C:\Users\13378343877\Desktop\wangke\bite\c\shujujiegou\sort2\源.c(62,31): warning C4554: “>>”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+C:\Users\13378343877\Desktop\wangke\bite\c\shujujiegou\sort2\源.c(72): warning C4715: “_quicksort”: 不是所有的控件路径都返回值
+  sort2.vcxproj -> C:\Users\13378343877\Desktop\wangke\bite\c\shujujiegou\sort2\x64\Debug\sort2.exe
