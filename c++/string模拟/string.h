@@ -105,7 +105,7 @@ namespace newstring {
 				reserve(_size + n);
 			}
 			size_t end = _size;
-			while (end >= pos && end!=-1)//重要的地方
+			while (end >= pos && end<_size)//重要的地方
 			{
 				_str[end + n] = _str[end];
 				--end;
@@ -166,54 +166,62 @@ namespace newstring {
 			}
 		}
 
-		//size_t find(char ch, size_t pos = 0)
-		//{
-		//	assert(pos < _size);
+		size_t find(char ch, size_t pos = 0)
+		{
+			assert(pos < _size);
 
-		//	for (size_t i = pos; i < _size; i++)
-		//	{
-		//		if (_str[i] == ch)
-		//		{
-		//			return i;
-		//		}
-		//	}
+			for (size_t i = pos; i < _size; i++)
+			{
+				if (_str[i] == ch)
+				{
+					return i;
+				}
+			}
 
-		//	return npos;
-		//}
+			return -1;
+		}
 
-		//size_t find(const char* str, size_t pos = 0)
-		//{
-		//	assert(pos < _size);
+		size_t find(const char* str, size_t pos = 0)
+		{
+			assert(pos < _size);
 
-		//	const char* ptr = strstr(_str + pos, str);
-		//	if (ptr)
-		//	{
-		//		return ptr - _str;
-		//	}
-		//	else
-		//	{
-		//		return npos;
-		//	}
-		//}
+			const char* ptr = strstr(_str + pos, str);
+			if (ptr)
+			{
+				return ptr - _str;
+			}
+			else
+			{
+				return -1;
+			}
+		}
 
-		//string substr(size_t pos = 0, size_t len = npos)
-		//{
-		//	assert(pos < _size);
+		string& operator=(string tmp)
+		{
+			std::swap(_str, tmp._str);
+			std::swap(_size, tmp._size);
+			std::swap(_capacity, tmp._capacity);
 
-		//	size_t n = len;
-		//	if (len == npos || pos + len > _size)
-		//	{
-		//		n = _size - pos;
-		//	}
+			return *this;
+		}
 
-		//	string tmp;
-		//	tmp.reserve(n);
-		//	for (size_t i = pos; i < pos + n; i++)
-		//	{
-		//		tmp += _str[i];
-		//	}
+		string substr(size_t pos = 0, size_t len = -1)
+		{
+			assert(pos < _size);
 
-		//	return tmp;
-		//}
+			size_t n = len;
+			if (len == -1 || pos + len > _size)
+			{
+				n = _size - pos;
+			}
+
+			string tmp;
+			tmp.reserve(n);
+			for (size_t i = pos; i < pos + n; i++)
+			{
+				tmp += _str[i];
+			}
+			return tmp;
+		}
 	};
 }
