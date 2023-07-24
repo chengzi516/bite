@@ -25,5 +25,6 @@ int main() {
     newstring::string s1("hello world");
     newstring::string ss = s1.substr(2, 3);
     std::cout << ss.c_str();
+    std::cout << s1 << std::endl;
     return 0;
 }

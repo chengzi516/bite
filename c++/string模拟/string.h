@@ -8,6 +8,28 @@ namespace newstring {
 		size_t _capacity;
 		char* _str;
 	public:
+		typedef char* iterator;
+		typedef const char* const_iterator;
+
+		iterator begin()
+		{
+			return _str;
+		}
+
+		iterator end()
+		{
+			return _str + _size;
+		}
+
+		const_iterator begin() const
+		{
+			return _str;
+		}
+
+		const_iterator end() const
+		{
+			return _str + _size;
+		}
 		//重写构造和析构
 		string(const char* str = "") {
 			_size = strlen(str);
@@ -15,6 +37,12 @@ namespace newstring {
 			_str = new char[_size + 1];
 			strcpy(_str, str);
 
+		}
+		string(const string& s) {
+			string tmp(s._str);
+			std::swap(_str, tmp._str);
+			std::swap(_size, tmp._size);
+			std::swap(_capacity, tmp._capacity);
 		}
 		~string()
 		{
@@ -223,5 +251,60 @@ namespace newstring {
 			}
 			return tmp;
 		}
+		void clear()
+		{
+			_str[0] = '\0';
+			_size = 0;
+		}
+		
 	};
+	std::ostream& operator<<(std::ostream& out, const string& s)
+	{
+
+
+		for (auto ch : s)
+		{
+			out << ch;
+		}
+
+		return out;
+	}
+
+
+	std::istream& operator>>(std::istream& in, string& s)
+	{
+		s.clear();
+
+		char ch = in.get();
+		// 处理前缓冲区前面的空格或者换行
+		while (ch == ' ' || ch == '\n')
+		{
+			ch = in.get();
+		}
+
+		//in >> ch;
+		char buff[128];
+		int i = 0;
+
+		while (ch != ' ' && ch != '\n')
+		{
+			buff[i++] = ch;
+			if (i == 127)
+			{
+				buff[i] = '\0';
+				s += buff;
+				i = 0;
+			}
+
+			ch = in.get();
+		}
+
+		if (i != 0)
+		{
+			buff[i] = '\0';
+			s += buff;
+		}
+
+		return in;
+	}
 }
