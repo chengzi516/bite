@@ -1,21 +1,22 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #include <iostream>
 #include <string>
+using namespace std;
 // 基类
-class Base {
-public:
-    void display() {
-        std::cout << "Base class" << std::endl;
-    }
-};
-
-// 派生类
-class Derived : public Base {
-public:
-    void display() {
-        std::cout << "Derived class" << std::endl;
-    }
-};
+//class Base {
+//public:
+//    void display() {
+//        std::cout << "Base class" << std::endl;
+//    }
+//};
+//
+//// 派生类
+//class Derived : public Base {
+//public:
+//    void display() {
+//        std::cout << "Derived class" << std::endl;
+//    }
+//};
 
 class Person
 {
@@ -95,14 +96,40 @@ class D : public B, public C
 public:
     int _d;
 };
+class Base
+{
+public:
+    virtual void print1()
+    {
+        std::cout << "Base::print1()" << std::endl;
+    }
+    virtual void print2()
+    {
+        std::cout << "Base::print2()" << std::endl;
+
+    }
+    void print3()
+    {
+        std::cout << "Base::print3()" << std::endl;
+
+    }
+private:
+    int _b = 1;
+};
+class Derive : public Base
+{
+public:
+    virtual void print1()
+    {
+        std::cout << "Base::print1()" << std::endl;
+
+    }
+private:
+    int _d = 2;
+};
 int main()
 {
-    D d;
-    d.B::_a = 1;
-    d.C::_a = 2;
-    d._b = 3;
-    d._c = 4;
-    d._d = 5;
-    std::cout << d._a;
+    Base b;
+    Derive d;
     return 0;
 }
