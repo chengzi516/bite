@@ -1,0 +1,3 @@
+﻿  源.cpp
+D:\vs\VC\Tools\MSVC\14.31.31103\include\sal.h(2361,1): error C2144: 语法错误:“int”的前面应有“;”
+D:\vs\VC\Tools\MSVC\14.31.31103\include\sal.h(2361,8): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
