@@ -1,0 +1,14 @@
+﻿  c语言版本可以直接用.c
+C:\Users\13378343877\Desktop\文件\bite\c++\Project2\c语言版本可以直接用.c(61,11): warning C4133: “函数”: 从“Point *”到“int *”的类型不兼容
+C:\Users\13378343877\Desktop\文件\bite\c++\Project2\c语言版本可以直接用.c(61,18): warning C4047: “函数”:“int”与“Point *”的间接级别不同
+C:\Users\13378343877\Desktop\文件\bite\c++\Project2\c语言版本可以直接用.c(61,15): warning C4024: “sort”: 形参和实参 2 的类型不同
+C:\Users\13378343877\Desktop\文件\bite\c++\Project2\c语言版本可以直接用.c(61,25): warning C4113: “bool (__cdecl *)(Point,Point)”和“int (__cdecl *)(const void *,const void *)”的参数列表不同
+C:\Users\13378343877\Desktop\文件\bite\c++\Project2\c语言版本可以直接用.c(61,25): warning C4133: “函数”: 从“bool (__cdecl *)(Point,Point)”到“int (__cdecl *)(const void *,const void *)”的类型不兼容
+C:\Users\13378343877\Desktop\文件\bite\c++\Project2\c语言版本可以直接用.c(83,15): warning C4477: “scanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 1 拥有了类型“double *”
+C:\Users\13378343877\Desktop\文件\bite\c++\Project2\c语言版本可以直接用.c(83,15): warning C4477: “scanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 2 拥有了类型“double *”
+C:\Users\13378343877\Desktop\文件\bite\c++\Project2\c语言版本可以直接用.c(86,11): warning C4133: “函数”: 从“Point [100]”到“int *”的类型不兼容
+C:\Users\13378343877\Desktop\文件\bite\c++\Project2\c语言版本可以直接用.c(86,18): warning C4047: “函数”:“int”与“Point *”的间接级别不同
+C:\Users\13378343877\Desktop\文件\bite\c++\Project2\c语言版本可以直接用.c(86,15): warning C4024: “sort”: 形参和实参 2 的类型不同
+C:\Users\13378343877\Desktop\文件\bite\c++\Project2\c语言版本可以直接用.c(86,25): warning C4113: “bool (__cdecl *)(Point,Point)”和“int (__cdecl *)(const void *,const void *)”的参数列表不同
+C:\Users\13378343877\Desktop\文件\bite\c++\Project2\c语言版本可以直接用.c(86,25): warning C4133: “函数”: 从“bool (__cdecl *)(Point,Point)”到“int (__cdecl *)(const void *,const void *)”的类型不兼容
+  Project2.vcxproj -> C:\Users\13378343877\Desktop\文件\bite\c++\Project2\x64\Debug\Project2.exe
