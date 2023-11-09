@@ -1,0 +1,4 @@
+﻿  源.c
+C:\Users\13378343877\Desktop\文件\bite\c++\close_pair _c_programe\源.c(17,12): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+C:\Users\13378343877\Desktop\文件\bite\c++\close_pair _c_programe\源.c(23,12): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+  close_pair _c_programe.vcxproj -> C:\Users\13378343877\Desktop\文件\bite\c++\close_pair _c_programe\x64\Debug\close_pair _c_programe.exe
