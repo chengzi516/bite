@@ -1,0 +1,6 @@
+﻿  源.cpp
+C:\Users\13378343877\Desktop\文件\bite\c++\test nqueen\源.cpp(10,40): error C2872: “count”: 不明确的符号
+C:\Users\13378343877\Desktop\文件\bite\c++\test nqueen\源.cpp(7,5): message : 可能是“int count”
+D:\vs\VC\Tools\MSVC\14.31.31103\include\xutility(5301,45): message : 或  “iterator_traits<_Iter>::difference_type std::count(const _InIt,const _InIt,const _Ty &)”
+C:\Users\13378343877\Desktop\文件\bite\c++\test nqueen\源.cpp(57,41): warning C4474: printf: 格式字符串中传递的参数太多
+C:\Users\13378343877\Desktop\文件\bite\c++\test nqueen\源.cpp(57,41): message : 占位符和其参数预计 0 可变参数，但提供的却是 1 参数
